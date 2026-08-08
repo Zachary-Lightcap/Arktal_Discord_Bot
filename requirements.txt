@@ -1,0 +1,9 @@
+discord.py
+python-dotenv
+pandas
+numpy
+colour-science
+matplotlib
+scikit-learn
+opencv-python
+openpyxl

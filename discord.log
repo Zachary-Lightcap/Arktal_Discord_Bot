@@ -1,0 +1,136 @@
+[2026-07-08 00:35:59] [INFO    ] discord.client: logging in using static token
+[2026-07-08 00:36:00] [DEBUG   ] discord.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+[2026-07-08 00:36:00] [DEBUG   ] discord.http: GET /users/@me has found its initial rate limit bucket hash (78bb8553d9352a5a2f89f9def401287a).
+[2026-07-08 00:36:00] [DEBUG   ] discord.http: GET https://discord.com/api/v10/users/@me has received {'id': '1507935648416272455', 'username': 'Beads Helper', 'avatar': '160b81193ea8dcf4c5176733517af840', 'discriminator': '8375', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None, 'mfa_enabled': False, 'locale': 'en-US', 'premium_type': 0, 'email': None, 'verified': True, 'bio': ''}
+[2026-07-08 00:36:00] [DEBUG   ] discord.http: GET https://discord.com/api/v10/oauth2/applications/@me with None has returned 200
+[2026-07-08 00:36:00] [DEBUG   ] discord.http: GET /oauth2/applications/@me has found its initial rate limit bucket hash (d28a133af187e91d71d96a223467ce49).
+[2026-07-08 00:36:00] [DEBUG   ] discord.http: GET https://discord.com/api/v10/oauth2/applications/@me has received {'id': '1507935648416272455', 'name': 'Arktal_Beads_Identifier', 'icon': None, 'description': '', 'type': None, 'summary': '', 'is_monetized': False, 'is_verified': False, 'is_discoverable': False, 'bot': {'id': '1507935648416272455', 'username': 'Beads Helper', 'avatar': '160b81193ea8dcf4c5176733517af840', 'discriminator': '8375', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'bot_public': True, 'bot_require_code_grant': False, 'install_params': {'scopes': ['applications.commands'], 'permissions': '0'}, 'integration_types_config': {'0': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}, '1': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}}, 'verify_key': 'f18ae01752e226887ff07f01e1e42e63dda39f7f4914a20cc792f723774a3ad7', 'flags': 11018240, 'flags_new': '11018240', 'hook': True, 'storefront_available': False, 'redirect_uris': [], 'interactions_endpoint_url': None, 'role_connections_verification_url': None, 'owner': {'id': '319934065447010304', 'username': 'zachatree', 'avatar': 'bf3eddc8cb1c42beeb2d519c2ee18c68', 'discriminator': '0', 'public_flags': 0, 'flags': 0, 'banner': None, 'accent_color': 28279, 'global_name': 'Zachatree', 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': '#006e77', 'clan': None, 'primary_guild': None}, 'approximate_guild_count': 1, 'approximate_user_install_count': 0, 'approximate_user_authorization_count': 0, 'interactions_event_types': [], 'interactions_version': 1, 'explicit_content_filter': 0, 'rpc_application_state': 0, 'store_application_state': 1, 'verification_state': 1, 'integration_public': True, 'integration_require_code_grant': False, 'discoverability_state': 1, 'discovery_eligibility_flags': 480, 'monetization_state': 1, 'verification_eligibility_flags': 91036, 'monetization_eligibility_flags': 181988, 'bot_approximate_guild_count': 1, 'team': None, 'internal_guild_restriction': 2, 'approved_consoles': [], 'pricing_localization_strategy': 'localized_price_sets'}
+[2026-07-08 00:36:00] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway.discord.gg/
+[2026-07-08 00:36:00] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-arm-us-east1-b-mtn5",{"micros":0.0}]']}}
+[2026-07-08 00:36:00] [DEBUG   ] discord.gateway: Shard ID None has sent the IDENTIFY payload.
+[2026-07-08 00:36:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:36:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'Beads Helper', 'primary_guild': None, 'mfa_enabled': False, 'id': '1507935648416272455', 'global_name': None, 'flags': 0, 'email': None, 'discriminator': '8375', 'clan': None, 'bot': True, 'avatar': '160b81193ea8dcf4c5176733517af840'}, 'session_type': 'normal', 'session_id': '4264ae7e7a0eb3b16df1878ea7035185', 'resume_gateway_url': 'wss://gateway-us-east1-b.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1507938841951207465'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['newark', 'us-east', 'us-central', 'atlanta', 'us-south'], 'game_relationships': [], 'auth': {}, 'application': {'id': '1507935648416272455', 'flags_new': '11018240', 'flags': 11018240}, '_trace': ['["gateway-prd-arm-us-east1-b-mtn5",{"micros":127032,"calls":["id_created",{"micros":730,"calls":[]},"session_lookup_time",{"micros":508,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"sessions-prd-gcp-us-east1-b-82",{"micros":125447,"calls":["start_session",{"micros":113372,"calls":["prd-rpc-6cc9bc455b-hhk4f",{"micros":30099,"calls":["get_user",{"micros":9257},"get_guilds",{"micros":3276},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":500},"authorized_ip_coro",{"micros":9},"pending_payments",{"micros":1688},"apex_experiments",{"micros":74277},"sessions_experiments",{"micros":6},"played_application_ids",{"micros":4},"linked_users",{"micros":3},"ad_personalization_toggles_disabled",{"micros":2},"regional_feature_config",{"micros":3}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"presence_started",{"micros":227,"calls":[]},"guilds_started",{"micros":72,"calls":[]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":11660,"calls":[]},"connect_finished",{"micros":11683,"calls":[]},"build_ready",{"micros":11,"calls":[]},"clean_ready",{"micros":19,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}]']}}
+[2026-07-08 00:36:01] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2026-07-08 00:36:01] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 4264ae7e7a0eb3b16df1878ea7035185).
+[2026-07-08 00:36:01] [DEBUG   ] discord.client: Dispatching event connect
+[2026-07-08 00:36:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_CREATE', 's': 2, 'op': 0, 'd': {'theme': None, 'max_video_channel_users': 25, 'max_stage_video_channel_users': 50, 'nsfw_level': 0, 'channels': [{'version': 1779591036260, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Text Channels', 'id': '1507938842731216986', 'flags': 0}, {'version': 1779591036272, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1507938842731216986', 'name': 'general', 'last_message_id': '1524272641819545710', 'id': '1507938842731216988', 'icon_emoji': {'name': '👋', 'id': None}, 'flags': 0}], 'owner_id': '319934065447010304', 'rules_channel_id': None, 'hub_type': None, 'profile': None, 'explicit_content_filter': 0, 'application_command_counts': {}, 'mfa_level': 0, 'default_message_notifications': 0, 'soundboard_sounds': [], 'game_application_ids': None, 'stickers': [], 'safety_alerts_channel_id': None, 'id': '1507938841951207465', 'lazy': True, 'nsfw': False, 'name': 'Beads Server', 'system_channel_flags': 0, 'members': [{'user': {'username': 'Beads Helper', 'public_flags': 0, 'primary_guild': None, 'id': '1507935648416272455', 'global_name': None, 'display_name_styles': None, 'display_name': None, 'discriminator': '8375', 'collectibles': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': '160b81193ea8dcf4c5176733517af840'}, 'roles': ['1507939222701604877'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2026-05-24T02:52:06.907000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}], 'official_message_color': None, 'member_count': 3, 'large': False, 'features': [], 'roles': [{'version': 1779591036251, 'unicode_emoji': None, 'tags': {}, 'position': 0, 'permissions': '2248473465835073', 'name': '@everyone', 'mentionable': False, 'managed': False, 'id': '1507938841951207465', 'icon': None, 'hoist': False, 'flags': 0, 'colors': {'tertiary_color': None, 'secondary_color': None, 'primary_color': 0}, 'color': 0}, {'version': 1779591150114, 'unicode_emoji': None, 'tags': {'bot_id': '1507935648416272455'}, 'position': 1, 'permissions': '563276371455040', 'name': 'Arktal_Beads_Identifier', 'mentionable': False, 'managed': True, 'id': '1507939222701604877', 'icon': None, 'hoist': False, 'flags': 0, 'colors': {'tertiary_color': None, 'secondary_color': None, 'primary_color': 0}, 'color': 0}], 'preferred_locale': 'en-US', 'presences': [], 'vanity_url_code': None, 'application_id': None, 'afk_channel_id': None, 'verification_role_id': None, 'premium_progress_bar_enabled': False, 'threads': [], 'splash': None, 'afk_timeout': 300, 'guild_space_settings': None, 'incidents_data': None, 'description': None, 'banner': None, 'inventory_settings': None, 'voice_states': [], 'joined_at': '2026-05-24T02:52:06.907000+00:00', 'stage_instances': [], 'emojis': [], 'guild_scheduled_events': [], 'owner_configured_content_level': 0, 'latest_onboarding_question_id': None, 'public_updates_channel_id': None, 'unavailable': False, 'home_header': None, 'moderator_reporting': None, 'region': 'deprecated', 'premium_features': None, 'max_members': 25000000, 'activity_instances': [], 'premium_subscription_count': 0, 'system_channel_id': '1507938842731216988', 'premium_tier': 0, 'discovery_splash': None, 'icon': None, 'version': 1779591036290, 'premium_progress_bar_enabled_user_updated_at': None, 'embedded_activities': [], 'experiments': {'evaluation_id': '63456ea9', 'assignments': [[2092655299, 1, 2, 1]]}, 'verification_level': 0}}
+[2026-07-08 00:36:01] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2026-07-08 00:36:01] [DEBUG   ] discord.client: Dispatching event guild_available
+[2026-07-08 00:36:03] [DEBUG   ] discord.client: Dispatching event ready
+[2026-07-08 00:36:03] [DEBUG   ] discord.http: PUT https://discord.com/api/v10/applications/1507935648416272455/commands with [{"name":"bead","description":"Create a image with bead's picked out","type":1,"options":[{"type":11,"name":"image","description":"\u2026","required":true}],"nsfw":false,"dm_permission":true,"default_member_permissions":null,"contexts":null,"integration_types":null}] has returned 200
+[2026-07-08 00:36:03] [DEBUG   ] discord.http: PUT /applications/{application_id}/commands has found its initial rate limit bucket hash (3e32a240d3716487d7d8f6dae6c54f6b).
+[2026-07-08 00:36:03] [DEBUG   ] discord.http: PUT https://discord.com/api/v10/applications/1507935648416272455/commands has received [{'id': '1523177013094121493', 'application_id': '1507935648416272455', 'version': '1523177013094121494', 'default_member_permissions': None, 'type': 1, 'name': 'bead', 'name_localizations': None, 'description': "Create a image with bead's picked out", 'description_localizations': None, 'dm_permission': True, 'contexts': None, 'integration_types': [0, 1], 'options': [{'type': 11, 'name': 'image', 'name_localizations': None, 'description': '…', 'description_localizations': None, 'required': True}], 'nsfw': False}]
+[2026-07-08 00:36:42] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:36:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:37:23] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:37:23] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:38:04] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:38:04] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:38:45] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:38:45] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:39:27] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:39:27] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:40:08] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:40:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:40:49] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:40:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:41:30] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:41:31] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:42:12] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:42:12] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:42:53] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:42:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:43:34] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:43:34] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:44:15] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:44:16] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:44:57] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:44:57] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:45:38] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:45:38] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:46:19] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:46:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:47:01] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:47:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:47:42] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:47:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:48:23] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:48:23] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:49:04] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:49:04] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:49:46] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:49:46] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:50:27] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:50:27] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:51:08] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:51:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:51:49] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:51:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:52:31] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:52:31] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:53:12] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:53:12] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:53:53] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:53:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:54:34] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:54:34] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:55:16] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:55:16] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:55:57] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:55:57] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:56:38] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:56:38] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:57:19] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:57:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:58:01] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:58:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:58:42] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:58:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 00:59:23] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 00:59:23] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:00:04] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:00:05] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:00:46] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:00:46] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:01:27] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:01:27] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:02:08] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:02:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:02:49] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:02:50] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:03:31] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:03:31] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:04:12] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:04:12] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:04:53] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:04:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:05:35] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:05:35] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:06:16] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:06:16] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:06:57] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:06:57] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:07:38] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:07:38] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:08:20] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:08:20] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:09:01] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:09:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:09:42] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:09:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:10:23] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:10:23] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:11:05] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:11:05] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:11:46] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:11:46] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:12:27] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:12:27] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:13:08] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:13:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:13:50] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:13:50] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:14:31] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:14:31] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-07-08 01:15:12] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2026-07-08 01:15:12] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
