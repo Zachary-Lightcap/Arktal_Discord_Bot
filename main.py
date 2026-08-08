@@ -7,7 +7,7 @@ import logging
 from dotenv import load_dotenv
 from arktal_beads import analyze_image
 import os
-import io
+import webserver
 
 # Load environment and get discord token
 load_dotenv()
@@ -79,6 +79,8 @@ async def poll(ctx, *, question):
     poll_message = await ctx.send(embed=embed)
     await poll_message.add_reaction("👍")
     await poll_message.add_reaction("👎")
+
+webserver.keep_alive()
 
 @bot.command()
 async def bug(ctx):
