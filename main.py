@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from arktal_beads import analyze_image
 import os
 import webserver
+import io
 
 # Load environment and get discord token
 load_dotenv()
@@ -73,6 +74,7 @@ async def bead(
     await interaction.followup.send("Here you go!",
                     file=file)
 
+
 @bot.command()
 async def poll(ctx, *, question):
     embed = discord.Embed(title="New Poll", description=question)
@@ -80,10 +82,11 @@ async def poll(ctx, *, question):
     await poll_message.add_reaction("👍")
     await poll_message.add_reaction("👎")
 
-webserver.keep_alive()
+
 
 @bot.command()
 async def bug(ctx):
     await ctx.send("I'm trying my best 🥺")
 
+webserver.keep_alive()
 bot.run(token, log_handler=handler, log_level=logging.DEBUG)
